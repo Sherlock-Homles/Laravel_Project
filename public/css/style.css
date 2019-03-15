@@ -1,0 +1,17 @@
+/* 自定义css文件 */
+.navbar{
+    margin-bottom: 0;
+}
+.jumbotron{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 0;
+}
+th{
+    text-align: center;
+}
+.write{
+    width: 70%;
+    padding: 5%;
+    margin: 0 auto;
+}

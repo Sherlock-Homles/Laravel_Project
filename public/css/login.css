@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box span{
+    color: red;
+    font-size: 13px;
+    font-family: 幼圆;
+    font-weight: bolder;
+}
+
+/*设置表单input样式*/
+input[type="text"],
+[type="password"] {
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 15px;
+    height: 2.5em;
+    border-radius: 4px;
+    border: 1px solid #DFEBF2;
+    -web-kit-appearance: none;
+    -moz-appearance: none;
+    display: inline-block;
+    padding: 0 1em;
+    text-decoration: none;
+    width: 100%;
+    color: #757575FF;
+    font-family: 幼圆;
+}
+
+input[name="QZ"] {
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 15px;
+    height: 2em;
+    border-radius: 4px;
+    border: 1px solid whiteb0;
+    -web-kit-appearance: none;
+    -moz-appearance: none;
+    display: inline-block;
+    padding: 0 1em;
+    text-decoration: none;
+    width: 80%;
+    margin-left: 20px;
+    font-family: 幼圆;
+}
+
+input[type="submit"] {
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 15px;
+    height: 3em;
+    border-radius: 4px;
+    -web-kit-appearance: none;
+    -moz-appearance: none;
+    display: inline-block;
+    padding: 0 1em;
+    text-decoration: none;
+    width: 100%;
+    color: white;
+    background-color: #25C6FFFF;
+    border: none;
+    font-family: 幼圆;
+}
+
+input{
+    margin: 5px 0;
+}
+
+/*隐藏滚动条*/
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.box {
+    width: 263px;
+    margin: 0 auto;
+    border: 2px solid #EEEFF069;
+    padding: 50px 50px 0 50px;
+    color: #66ccff;
+    position: fixed;
+    top: 15%;
+    left: 38%;
+    background: #EEEFF069;
+    border-radius: 10px;
+    font-family: 幼圆;
+}
+
+.h1 {
+    margin: 0 45px;
+}
+
+.box h6 {
+    margin-bottom: 40px;
+}
+
+.google a {
+    text-decoration: none;
+    font-size: 10px;
+    color: #666666FF;
+    float: right;
+}
+
+.google a:hover {
+    text-decoration: underline;
+}
+
+.facebook p {
+    font-size: 10px;
+    text-align: center;
+    color: #666666FF;
+    margin-bottom: 20px;
+}
+
+.facebook {
+    background-color: #FFFFFF79;
+    border: 2px solid #FFFFFF70;
+    border-radius: 10px;
+    width: 100%;
+    height: 80px;
+    margin: 40px 0;
+    padding: 20px 0;
+}
+
+.facebook a {
+    margin-left: 2px;
+}
+
+.box1 {
+    text-align: center;
+}
+
+.box2 {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    /*height: 50px;*/
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.form1 {
+    height: 50px;
+    overflow: hidden;
+    width: 700px;
+}
+
+.a1 {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+.QZ {
+    /*border: none;*/
+    position: absolute;
+    top: 6px;
+    left: 80px;
+}
+
+.box h1,
+h6 {
+    text-align: center;
+}
+
+.bun {
+    margin-top: 5px;
+}
+
+#a1 {
+    text-decoration: none;
+    margin-right: 7px;
+    border: 1px solid #A9A9A9FF;
+    width: 40px;
+    height: 21px;
+    font-size: 15px;
+    display: inline-block;
+    background-color: #ECECECFF;
+    color: black;
+    float: right;
+}
+
+.box3 a {
+    width: 72px;
+    height: 30px;
+    background-color: #25C6FF;
+    color: white;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer {
+    background-color: #464A4DFF;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+.box4 {
+    width: 80px;
+    height: 150px;
+    background-color: #464A4DB6;
+    position: fixed;
+    bottom: 30px;
+    left: 193px;
+    display: none;
+}
+
+.box4 a {
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
+    display: block;
+    padding: 0 10px;
+}
+
+.box4>a:hover {
+    background-color: #FFFFFF4A;
+}
+
+.box5:hover .box4 {
+    display: block;
+}
+
+.box5 {
+    width: 80px;
+    height: 30px;
+    text-decoration: none;
+    font-size: 10px;
+    margin: 0 15px;
+    color: #A3A5A6FF;
+    line-height: 30px;
+    display: inline-block;
+    position: absolute;
+}
+
+.box5>a {
+    font-size: 10px;
+    color: #A3A5A6FF;
+}
+
+.footer>a {
+    text-decoration: none;
+    font-size: 10px;
+    margin: 0 10px;
+    color: #A3A5A6FF;
+    line-height: 30px;
+}
+.admin a{
+    width: 72px;
+    height: 30px;
+    background-color: #6D7084;
+    color: white;
+    position: fixed;
+    top: 10px;
+    right: 100px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px;
+}
